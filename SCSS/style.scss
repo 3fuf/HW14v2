@@ -8,11 +8,12 @@ body {
 }
 
 .homepage {
-    background-image: url(/images/fon-h.svg), $grSupersoft;
+    background-image: url(../images/fon-h.svg), $grSupersoft;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 0px 0px 12px 12px;
     padding: 50px 0 60px 0;
+    height: 1000px;
 }
 
 .container {
