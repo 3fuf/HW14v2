@@ -1,0 +1,85 @@
+/*H2 H3 H3caps H4*/
+/*Activ*/
+/*Gradient*/
+.nav-site__blok, .nav-contact__blok-inner, .nav-contact, .header {
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.homepage {
+  background-image: url(/images/fon-h.svg), linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 0px 12px 12px;
+  padding: 50px 0 60px 0;
+}
+
+.container {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.nav-contact {
+  align-items: center;
+}
+
+.nav-contact__blok-link {
+  margin-right: 14px;
+}
+
+.nav-contact__blok-link_a {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-contact__blok-address {
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.nav-contact__blok-phone_a {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-contact__blok-icon {
+  transition: all 0, 3 linear;
+  cursor: pointer;
+}
+
+.nav-contact__blok-icon:hover svg {
+  fill: #F0145A;
+}
+
+.nav-contact__blok-icon:active svg {
+  fill: #24A3FF;
+}
+
+.nav-site__blok-link_a {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

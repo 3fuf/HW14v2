@@ -1,0 +1,24 @@
+@import "variables";
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.homepage {
+    background-image: url(/images/fon-h.svg), $grSupersoft;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px 0px 12px 12px;
+    padding: 50px 0 60px 0;
+}
+
+.container {
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@import "header";
