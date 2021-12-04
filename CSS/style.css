@@ -11,15 +11,15 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: gray;
 }
 
 .homepage {
   background-image: url(../images/fon-h.svg), linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   border-radius: 0px 0px 12px 12px;
   padding: 50px 0 60px 0;
-  height: 1000px;
 }
 
 .container {
@@ -30,6 +30,7 @@ body {
 
 .header {
   justify-content: space-between;
+  margin-bottom: 360px;
 }
 
 .nav-contact {
@@ -279,6 +280,42 @@ body {
   .nav-contact__block.nav-contact__block_none {
     display: none;
   }
+}
+.heading {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 405px;
+}
+
+.scroll {
+  padding: 0;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  margin-bottom: 90px;
+}
+.scroll-link:hover {
+  stroke: #F0145A;
+}
+
+.title-container {
+  display: flex;
+  padding: 0 120px;
+}
+.title-container__nav {
+  border-right: solid 4px #fff;
+  padding: 15px 60px 15px 0;
+}
+.title-container__nav-link {
+  margin-bottom: 30px;
+}
+.title-container__nav-link:last-child {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

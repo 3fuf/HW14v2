@@ -1,0 +1,40 @@
+.heading {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 405px;
+}
+
+.scroll {
+    padding: 0;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    margin-bottom: 90px;
+
+    &-link:hover {
+        stroke: $accent;
+    }
+}
+
+.title-container {
+    display: flex;
+    padding: 0 120px;
+
+    &__nav {
+        border-right: solid 4px #fff;
+        padding: 15px 60px 15px 0;
+
+        &-link {
+            margin-bottom: 30px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
