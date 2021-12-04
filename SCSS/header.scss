@@ -246,6 +246,10 @@
                     border-bottom: none;
                 }
             }
+
+            &--open {
+                display: block;
+            }
         }
 
         .nav-contact__block-address {
