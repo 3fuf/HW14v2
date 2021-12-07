@@ -25,7 +25,7 @@
 }
 
 .title {
-    margin-top: 90px;
+    margin: 90px 0 87px;
 }
 
 .title-container {
@@ -39,6 +39,7 @@
     &__nav {
         border-right: solid 4px rgba(255, 255, 255, 0.3);
         padding: 14px 60px 14px 0;
+        text-align: end;
 
         &-link {
             margin-bottom: 30px;
@@ -88,7 +89,15 @@
     }
 }
 
+.subject {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+}
+
 @media (max-width: 768px) {
+
+
     .title-container {
         flex-direction: column;
     }
@@ -113,5 +122,5 @@
         padding-top: 60px;
         border-top: solid 4px rgba(255, 255, 255, 0.3);
     }
-  }
+}
 
