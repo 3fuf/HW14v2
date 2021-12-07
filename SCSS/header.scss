@@ -145,13 +145,8 @@
     display: none;
 }
 
-@media (max-width: 1600px) {
-    .container {
-        padding: 0 60px;
-    }
-}
-
 @media (max-width: 1023px) {
+
     .header {
         position: relative;
     }
@@ -171,22 +166,24 @@
     }
 
     @media (max-width: 767px) {
+
         .homepage {
             padding: 60px 0;
-        }
-
-        .container {
-            padding: 0 30px;
         }
 
         .btn-burger {
             display: block;
             padding: 0;
-            background-color: red;
+            background-color: transparent;
             border: none;
             position: fixed;
             top: 57px;
             right: 15px;
+
+            &-path {
+                stroke: #fff;
+                stroke-width: 2px;
+            }
         }
 
         .nav-site {

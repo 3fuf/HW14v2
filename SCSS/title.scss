@@ -23,10 +23,14 @@
 
 .title-container {
     display: flex;
-    padding: 0 120px;
+    max-width: 1360px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
 
     &__nav {
-        border-right: solid 4px #fff;
+        border-right: solid 4px rgba(255, 255, 255, 0.3);
         padding: 15px 60px 15px 0;
 
         &-link {
@@ -35,6 +39,46 @@
             &:last-child {
                 margin-bottom: 0;
             }
+
+            &_a {
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 38px;
+                line-height: 46px;
+                text-align: right;
+                color: #B3B3BA;
+
+                &:hover {
+                    color: $accent;
+                }
+
+                &:active {
+                    background: $grRedText;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+
         }
     }
+
+    &__desc {
+        max-width: 55%;
+        margin-left: 60px;
+
+        &-h {
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 37px;
+            color: #FFFFFF;
+            margin-bottom: 30px;
+        }
+
+        &-p {
+            font-size: 19px;
+            line-height: 30px;
+            color: #FFFFFF;
+        }
+    }
+
 }
