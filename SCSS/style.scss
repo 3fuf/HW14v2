@@ -13,13 +13,20 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     border-radius: 0px 0px 12px 12px;
-    padding: 50px 0 60px 0;
+    padding: 0 0 60px 0;
 }
 
 .container {
     max-width: 83.33%;
     margin-right: auto;
     margin-left: auto;
+
+    &-header {
+        height: 100vh;
+        display: flex;flex-direction: column;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
 }
 
 @import "header";
