@@ -89,10 +89,32 @@
     }
 }
 
+.services {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $regular;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    stroke: $regular;
+
+    &:hover {
+        stroke: $accent;
+        color: $accent;
+    }
+}
+
 .subject {
+    display: block;
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
+    background: $grRedText;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media (max-width: 768px) {

@@ -412,10 +412,31 @@ body {
   color: #FFFFFF;
 }
 
+.services {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  stroke: #24A3FF;
+}
+.services:hover {
+  stroke: #F0145A;
+  color: #F0145A;
+}
+
 .subject {
+  display: block;
   font-weight: 700;
   font-size: 38px;
   line-height: 46px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media (max-width: 768px) {
