@@ -17,13 +17,14 @@ body {
 }
 
 .container {
-    max-width: 83.33%;
+    max-width: 83.34%;
     margin-right: auto;
     margin-left: auto;
 
     &-header {
         height: 100vh;
-        display: flex;flex-direction: column;
+        @extend %df;
+        flex-direction: column;
         justify-content: space-between;
         padding-top: 50px;
     }

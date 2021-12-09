@@ -216,7 +216,7 @@
 }
 
 
-@media (max-width: 527px) {
+@media (max-width: 554px) {
 
     .homepage {
         padding: 0;
@@ -331,15 +331,14 @@
 
         }
     }
+}
 
-    @media (max-width: 450px) {
-        .logo {
-            top: 60px;
+@media (max-width: 450px) {
+    .logo {
+        top: 60px;
 
-            &-img {
-                max-width: 54%;
-            }
+        &-img {
+            max-width: 54%;
         }
     }
-
 }
