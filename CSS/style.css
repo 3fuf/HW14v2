@@ -566,7 +566,6 @@ body {
 }
 .clients__block-inner:nth-child(1) {
   background-color: #1C4280;
-  border-radius: 12px 0 0 0;
 }
 .clients__block-inner:nth-child(2) {
   background-color: #143646;
@@ -576,7 +575,6 @@ body {
 }
 .clients__block-inner:nth-child(4) {
   background-color: #9E4DC3;
-  border-radius: 0 12px 0 0;
 }
 .clients__block-inner:nth-child(5) {
   background-color: #FD9339;
@@ -592,7 +590,6 @@ body {
 }
 .clients__block-inner:nth-child(9) {
   background-color: #EAEAEA;
-  border-radius: 0 0 0 12px;
 }
 .clients__block-inner:nth-child(10) {
   background-color: #282240;
@@ -602,7 +599,39 @@ body {
 }
 .clients__block-inner:nth-child(12) {
   background-color: #000;
-  border-radius: 0 0 12px 0;
+}
+
+@media (min-width: 1441px) {
+  .clients__block-inner:nth-child(12) {
+    border-radius: 0 0 12px 0;
+  }
+
+  .clients__block-inner:nth-child(9) {
+    border-radius: 0 0 0 12px;
+  }
+
+  .clients__block-inner:nth-child(4) {
+    border-radius: 0 12px 0 0;
+  }
+
+  .clients__block-inner:nth-child(1) {
+    border-radius: 12px 0 0 0;
+  }
+}
+@media (max-width: 1023px) {
+  .clients__block {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .clients__block {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .clients__block {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
