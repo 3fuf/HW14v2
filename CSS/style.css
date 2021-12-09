@@ -511,7 +511,7 @@ body {
     border-top: solid 4px rgba(255, 255, 255, 0.3);
   }
 }
-@media (max-width: 920px) and (max-width: 554px) {
+@media (max-width: 554px) {
   .title-container__nav-link_a {
     font-size: 30px;
     line-height: 37px;
@@ -531,7 +531,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-@media (max-width: 920px) and (max-width: 375px) {
+@media (max-width: 375px) {
   .container {
     max-width: 84%;
   }
@@ -541,6 +541,9 @@ body {
   width: 100%;
 }
 
+.clients {
+  margin-bottom: 60px;
+}
 .clients-title {
   font-weight: 700;
   font-size: 14px;
@@ -552,18 +555,18 @@ body {
   margin-bottom: 30px;
 }
 .clients__block {
-  border-radius: 12px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 .clients__block-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   height: 120px;
 }
 .clients__block-inner:nth-child(1) {
   background-color: #1C4280;
-  background-image: url(../images/clients/hillel.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  border-radius: 12px 0 0 0;
 }
 .clients__block-inner:nth-child(2) {
   background-color: #143646;
@@ -573,6 +576,7 @@ body {
 }
 .clients__block-inner:nth-child(4) {
   background-color: #9E4DC3;
+  border-radius: 0 12px 0 0;
 }
 .clients__block-inner:nth-child(5) {
   background-color: #FD9339;
@@ -588,6 +592,7 @@ body {
 }
 .clients__block-inner:nth-child(9) {
   background-color: #EAEAEA;
+  border-radius: 0 0 0 12px;
 }
 .clients__block-inner:nth-child(10) {
   background-color: #282240;
@@ -597,6 +602,7 @@ body {
 }
 .clients__block-inner:nth-child(12) {
   background-color: #000;
+  border-radius: 0 0 12px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
