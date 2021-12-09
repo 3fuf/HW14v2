@@ -256,6 +256,11 @@
             border: none;
             background-color: transparent;
             padding: 0;
+
+            &-svg:hover  {
+                background-color: $separator;
+                border-radius: 8px;
+            }
         }
 
         &__block {
