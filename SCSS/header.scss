@@ -8,12 +8,11 @@
     align-items: center;
     margin-bottom: 16px;
 
-    .nav-contact__block {
+    &__block {
         @extend %df;
         align-items: center;
         &::after {
             content: '';
-            display: inline-block;
             width: 4px;
             height: 4px;
             background-color: #fff;
