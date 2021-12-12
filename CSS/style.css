@@ -1,7 +1,7 @@
 /*H2 H3 H3caps H4*/
 /*Activ*/
 /*Gradient*/
-.footer-nav-inner__contact_phone, .footer-nav-inner__contact-icon, .footer-nav-inner__contact, .footer-nav-inner__map-addres, .footer-nav-inner__map, .footer-nav-inner, .footer-nav, .publications-container, .clients__block-inner, .services-container__block-icon, .title-container, .nav-site__block, .nav-contact__block-inner, .nav-contact__block, .nav-contact, .header, .container-header {
+.footer-nav-inner__contact_phone, .footer-nav-inner__contact-icon, .footer-nav-inner__contact, .footer-nav-inner__map-addres, .footer-nav-inner__map, .footer-nav-inner, .footer-nav, .publications-container, .clients__block-inner, .team-container, .services-container__block-icon, .title-container, .nav-site__block, .nav-contact__block-inner, .nav-contact__block, .nav-contact, .header, .container-header {
   display: flex;
 }
 
@@ -532,6 +532,45 @@ body {
   width: 100%;
 }
 
+.team-container {
+  background-color: #F5F5FA;
+  border-radius: 12px;
+}
+.team-container-icon {
+  flex-shrink: 0;
+  position: relative;
+  width: 400px;
+  overflow: hidden;
+}
+.team-container-icon-img {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.team-container__inner {
+  padding: 30px;
+}
+.team-container__inner .btn-services {
+  margin-bottom: 5px;
+}
+.team-container__inner .subject {
+  margin-bottom: 30px;
+}
+.team-container-h {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #B3B3BA;
+  margin-bottom: 6px;
+}
+.team-container-p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+
 .clients {
   margin-bottom: 60px;
 }
@@ -640,6 +679,7 @@ body {
   margin-right: 30px;
   padding-bottom: 30px;
   width: 100%;
+  height: 100%;
 }
 .publications-container__block:last-child {
   margin-right: 0;
