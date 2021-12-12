@@ -1,7 +1,7 @@
 /*H2 H3 H3caps H4*/
 /*Activ*/
 /*Gradient*/
-.footer-nav-inner__contact_phone, .footer-nav-inner__contact-icon, .footer-nav-inner__contact, .footer-nav-inner__map-addres, .footer-nav-inner, .footer-nav, .services-container__block-icon, .title-container, .nav-site__block, .nav-contact__block-inner, .nav-contact__block, .nav-contact, .header, .container-header {
+.footer-nav-inner__contact_phone, .footer-nav-inner__contact-icon, .footer-nav-inner__contact, .footer-nav-inner__map-addres, .footer-nav-inner__map, .footer-nav-inner, .footer-nav, .publications-container, .clients__block-inner, .services-container__block-icon, .title-container, .nav-site__block, .nav-contact__block-inner, .nav-contact__block, .nav-contact, .header, .container-header {
   display: flex;
 }
 
@@ -550,7 +550,6 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 .clients__block-inner {
-  display: flex;
   align-items: center;
   justify-content: space-around;
   height: 120px;
@@ -632,7 +631,6 @@ body {
   margin-bottom: 30px;
 }
 .publications-container {
-  display: flex;
   margin-bottom: 30px;
 }
 .publications-container__block {
@@ -690,7 +688,6 @@ body {
 }
 .footer-nav-inner__map {
   margin-bottom: 21px;
-  display: flex;
   align-items: center;
 }
 .footer-nav-inner__map-addres {
