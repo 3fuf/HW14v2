@@ -84,10 +84,6 @@
     &:hover {
         color: $accent;
     }
-
-    &:active {
-        color: $alt;
-    }
 }
 
 .nav-contact__block-icon {
@@ -96,10 +92,6 @@
 
 .nav-contact__block-icon:hover svg {
     fill: $accent;
-}
-
-.nav-contact__block-icon:active svg {
-    fill: $alt;
 }
 
 .nav-site-btn_close {
@@ -128,8 +120,7 @@
     text-decoration: none;
 
     &:hover {
-        color: $regular;
-        border-bottom: 2px solid $regular;
+        border-bottom: 2px solid #fff;
     }
 
     &:active {
