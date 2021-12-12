@@ -571,6 +571,20 @@ body {
   color: #B3B3BA;
 }
 
+@media (max-width: 949px) {
+  .team-container {
+    flex-direction: column;
+  }
+  .team-container-icon {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+  .team-container-icon-img {
+    position: relative;
+    height: 500px;
+  }
+}
 .clients {
   margin-bottom: 60px;
 }
@@ -679,7 +693,6 @@ body {
   margin-right: 30px;
   padding-bottom: 30px;
   width: 100%;
-  height: 100%;
 }
 .publications-container__block:last-child {
   margin-right: 0;
