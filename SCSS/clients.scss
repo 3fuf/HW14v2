@@ -1,0 +1,100 @@
+.clients {
+    margin-bottom: 60px;
+
+    &-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #323264;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    &__block {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        &-inner {
+            @extend %df;
+            align-items: center;
+            justify-content: space-around;
+            height: 120px;
+
+            &:nth-child(1) {
+                background-color: #1C4280;
+            }
+            &:nth-child(2) {
+                background-color: #143646;
+            }
+            &:nth-child(3) {
+                background-color: #F48B30;
+            }
+            &:nth-child(4) {
+                background-color: #9E4DC3;
+            }
+            &:nth-child(5) {
+                background-color: #FD9339;
+            }
+            &:nth-child(6) {
+                background-color: #E2E2E4;
+            }
+            &:nth-child(7) {
+                background-color: #C71C36;
+            }
+            &:nth-child(8) {
+                background-color: #DCF3F9;
+            }
+            &:nth-child(9) {
+                background-color: #EAEAEA;
+            }
+            &:nth-child(10) {
+                background-color: #282240;
+            }
+            &:nth-child(11) {
+                background-color: #1D4568;
+            }
+            &:nth-child(12) {
+                background-color: #000;
+            }
+        }
+    }
+}
+
+@media (min-width: 1441px) {
+    .clients__block-inner:nth-child(12) {
+        border-radius: 0 0 12px 0;
+    }
+
+    .clients__block-inner:nth-child(9) {
+        border-radius: 0 0 0 12px;
+    }
+
+    .clients__block-inner:nth-child(4) {
+        border-radius: 0 12px 0 0;
+    }
+
+    .clients__block-inner:nth-child(1) {
+        border-radius: 12px 0 0 0;
+    }
+
+}
+
+@media (max-width: 1023px) {
+    .clients__block {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .clients__block {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .clients__block {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

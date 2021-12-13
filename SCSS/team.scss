@@ -1,0 +1,67 @@
+.team {
+
+    &-container {
+        @extend %df;
+        background-color: $bg;
+        border-radius: 12px;
+
+        &-icon {
+            flex-shrink: 0;
+            position: relative;
+            width: 400px;
+            overflow: hidden;
+
+            &-img {
+                position: absolute;
+                display: block;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &__inner {
+            padding: 30px;
+
+            .btn-services {
+                margin-bottom: 5px;
+            }
+
+            .subject {
+                margin-bottom: 30px;
+            }
+        }
+
+        &-h {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            color: $text;
+            margin-bottom: 6px;
+        }
+
+        &-p {
+            font-size: 14px;
+            line-height: 22px;
+            color: $text;
+        }
+    }
+}
+
+@media (max-width: 949px) {
+    .team-container {
+        flex-direction: column;
+
+        &-icon {
+            margin-right: auto;
+            margin-left: auto;
+            width: 100%;
+
+            &-img {
+                position: relative;
+                height: 500px;
+            }
+        }
+    }
+
+}
