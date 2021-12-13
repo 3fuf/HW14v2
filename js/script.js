@@ -11,3 +11,5 @@ button.addEventListener('click', () => {
 close.addEventListener('click', () => {
     navSite.classList.remove('nav-site--open');
 });
+
+$('#slider').slick();
